@@ -7,7 +7,7 @@ function Videos(props) {
     
     return (
         // Outer div controlling the card 
-        <div className="px-5 w-[100%] h-[100%] rounded-sm shadow-md bg-slate-100">
+        <div className="px-5 w-[100%] h-full rounded-sm shadow-md bg-slate-100">
            
             {/* Div containing the react player */}
             <div className='mt-5'>

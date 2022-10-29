@@ -30,19 +30,19 @@ function Navbar() {
                                         before:-bottom-1 before:left-0 before:bg-sky-300
                                         before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
                                         before:transition before:ease-in-out before:duration-300">
-                            <Link href='http://localhost:3001/dashboard'>Home</Link>
+                            <Link href='/dashboard'>Home</Link>
                         </li>
                         <li className=" ml-4 md:ml-6 text-sm uppercase relative before:content-[''] before:absolute before:block before:w-full before:h-[10%] 
                                         before:-bottom-1 before:left-0 before:bg-sky-300
                                         before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
                                         before:transition before:ease-in-out before:duration-300">
-                            <Link href='http://localhost:3001/detection'>Detection</Link>
+                            <Link href='/detection'>Detection</Link>
                         </li>
                         <li className=" ml-4 md:ml-6 text-sm uppercase relative before:content-[''] before:absolute before:block before:w-full before:h-[10%] 
                                         before:-bottom-1 before:left-0 before:bg-sky-300
                                         before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
                                         before:transition before:ease-in-out before:duration-300">
-                            <Link href='http://localhost:3001/videoGallery'>Videos</Link>
+                            <Link href='/videoGallery'>Videos</Link>
                         </li>
 
                     </ul>
