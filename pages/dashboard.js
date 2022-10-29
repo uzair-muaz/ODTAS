@@ -6,15 +6,10 @@ import OperatorDash from '../components/OperatorDash';
 function dashboard() {
     
     return (
-        <div className='bg-slate-200 h-screen '>
-
-             {/* Navbar  */}
-            <div className='h-[9%]'>
-                <Navbar />
-            </div>
+        <div className='bg-slate-200 h-full '>
 
             {/* Containter for Video Elements */}
-            <div className=' h-[91%] bg-red-800 '>
+            <div className=' h-[100%] bg-red-800 '>
                 <OperatorDash/>
             </div> 
 

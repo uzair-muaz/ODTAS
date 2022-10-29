@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../components/Navbar';
 import Map from '../components/Map';
 import Toggle from '../components/Toggle';
 import LiveStream from '../components/LiveStream';
@@ -59,13 +58,13 @@ function Detection() {
 
 
         // Most outer container that holds the nav bar and the containter for dashboard
-        <div className='bg-slate-50 h-screen '>
+        <div className='bg-slate-50 h-full '>
 
             {/* Navbar  */}
-            <div className='h-[10%]'><Navbar /></div>
+            {/* <div className='h-[10%]'><Navbar /></div> */}
 
             {/* Containter for Dashboard Elements */}
-            <div className=' h-[90%] flex'>
+            <div className=' h-[100%] flex'>
 
                 {/* Container 1 for Toggle Buttons and Detection Filteration options */}
                 <div className='w-[20%] h-full border-gray-600  border-2'>
